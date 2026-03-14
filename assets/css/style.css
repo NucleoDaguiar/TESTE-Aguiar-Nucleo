@@ -1489,3 +1489,53 @@ ul{
     min-height:320px;
   }
 }
+
+
+/* HERO TITLE PREMIUM */
+
+.hero-title{
+
+max-width:980px;
+margin:auto;
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:clamp(40px,4.2vw,60px);
+
+line-height:1.15;
+
+letter-spacing:-0.02em;
+
+text-align:center;
+
+color:#264f47;
+
+}
+
+/* subtitulo */
+
+.page-hero p{
+
+max-width:650px;
+
+margin:20px auto 0;
+
+font-size:18px;
+
+opacity:0.85;
+
+}
+
+/* mobile */
+
+@media(max-width:768px){
+
+.hero-title{
+
+font-size:34px;
+
+line-height:1.2;
+
+}
+
+}
