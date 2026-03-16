@@ -2280,3 +2280,102 @@ margin-bottom:12px;
     margin-right: auto;
   }
 }
+
+/* ===== EQUIPE — REFINO PREMIUM EXTRA ===== */
+
+.team-card-luxury {
+  padding: 0;
+  border-radius: 30px;
+  box-shadow: 0 24px 60px rgba(31, 74, 67, 0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.99) 0%, rgba(249,245,240,0.99) 100%);
+}
+
+.team-card-luxury .team-photo-wrap.small-photo {
+  padding: 34px 18px 34px 34px;
+}
+
+.team-card-luxury .team-photo-wrap.small-photo img {
+  width: 126px;
+  height: 126px;
+  border: 5px solid rgba(196, 130, 98, 0.14);
+  box-shadow: 0 18px 34px rgba(42, 36, 30, 0.12);
+}
+
+.team-card-luxury .team-card-body {
+  padding: 34px 36px 32px 12px;
+}
+
+.team-card-top {
+  margin-bottom: 18px;
+}
+
+.team-card-luxury .team-card-body h2 {
+  font-size: clamp(2.2rem, 2.5vw, 2.9rem);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.team-card-luxury .team-meta {
+  font-size: 1.02rem;
+  margin-bottom: 16px;
+}
+
+.team-card-luxury .team-badge-premium {
+  padding: 10px 16px;
+  font-size: 0.88rem;
+  letter-spacing: 0.01em;
+  background: rgba(196, 130, 98, 0.12);
+}
+
+.team-card-luxury .team-card-body p:last-of-type {
+  max-width: 66ch;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #5f5852;
+}
+
+.team-card-actions {
+  margin-top: 24px;
+}
+
+.team-card-actions .btn {
+  min-width: 220px;
+}
+
+.team-card-luxury:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 70px rgba(31, 74, 67, 0.12);
+}
+
+@media (max-width: 768px) {
+  .team-card-luxury .team-photo-wrap.small-photo {
+    padding: 28px 20px 8px;
+  }
+
+  .team-card-luxury .team-photo-wrap.small-photo img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .team-card-luxury .team-card-body {
+    padding: 16px 22px 24px;
+  }
+
+  .team-card-luxury .team-card-body h2 {
+    font-size: 2.15rem;
+  }
+
+  .team-card-luxury .team-card-body p:last-of-type {
+    font-size: 1rem;
+    line-height: 1.76;
+  }
+
+  .team-card-actions {
+    margin-top: 20px;
+  }
+
+  .team-card-actions .btn {
+    width: 100%;
+    min-width: unset;
+  }
+}
